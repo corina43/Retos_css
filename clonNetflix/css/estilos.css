@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2? familia= Roboto:peso@300 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: flex-box;
+    
+}
+body{
+    font-family: 'Roboto'sans-serif;
+    background-image:linear-gradient(to bottom,transparent 1%, rgb(0,0,0,0.6) 140%) ,url(/img/background.jpg) ;
+}
+
+.gradiente{
+    background-color: rgba(0,0,0,0.6);
+    height: 40%;
+}
+header{
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0,0.1);
+
+}
+  header .logo img{
+    height: 40px;
+    
+  } 
+  header .Idiomas{
+    margin-left: 50rem;
+    background-color: rgba(0,0,0.2);
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+    font-size: 14px;
+  } 
+input[type="submit"]{
+    margin-right: 2rem;
+    background-color: #e50914;
+    border: none;
+    padding:  0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main{
+    margin: 0 auto; ;
+    margin-left: 25 rem;
+    margin-top: 8rem;
+    
+
+}
+.main h1{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 25 rem;
+    margin-top: 8rem;
+    text-align: center;
+}
+.main h4{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 30px;
+}
+.main p{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nfInput .placeLabel{
+    color: #8c8c8c;
+    font-size: 14px;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nmhp-cta-extra-large {
+    font-size: 1rem;
+    min-height: 40px;
+}
+.nmhp-cta {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    line-height: normal;
+    margin: 0.25em auto;
+    padding: 0 1em;
+    width: auto;
+}
+
+btn {
+    font-size: 1em;
+    margin: 0.5em 0.5em 0.5em 0;
+    min-height: 50px;
+    min-width: 74px;
+    padding: 24.5px 2em;
+    position: relative;
+}
+.btn-red {
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    padding: 1rem;
+}
+
+.btn {
+    
+    border: 0;
+    border-radius: 2px;
+    
+    box-sizing: border-box;
+
+    cursor: pointer;
+    
+    font-weight: 400;
+
+    
+    text-align: center;
+    text-decoration: none;
+    
+
+    user-select: none;
+    vertical-align: middle;
+}
+.button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    
+}
+.button, select {
+    text-transform: none;
+}
+.button {
+    overflow: visible;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    text-indent: 0px;
+    text-shadow: none;
+}
+.button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+email-form-lockup {
+    text-align: center;
+}
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 10%;
+    position: relative;
+}
+*,
+::after
+.nmhp-cta-extra-large:after {
+    min-height: 40px;
+}
+.nmhp-cta:after {
+    content: "";
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 1px;
+}
+body, html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3f3f3;
+    color: #333;
+    direction: ltr;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 16px;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+.faq-card {
+    text-align: center;
+}
+.faq-card .email-form {
+    margin: 0 auto;
+}
+.nfInput .nfTextField {
+    height: 48px;
+    padding: 10px 10px 0px;
+    width: 100%;
+    
+}
+.nfTextField:invalid, .nfTextField:valid {
+    box-shadow: none;
+}
+
+.nfTextField {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    padding: 10px 11px;
+    width: 100%;
+}
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+input {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+label {
+    cursor: default;
+}
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+ul>li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 1.1em;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.hero-card .our-story-card-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.our-story-card-subtitle, .our-story-card-text {
+    font-size: 1.125rem;
+}
+
+.our-story-card-subtitle, .our-story-card-text {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+}
+
+
+.email-form-lockup .nfInput {
+    margin: 10px auto;
+}
+.nfInput, .nfInput .nfInputPlacement {
+    position: relative;
+}
+
+.nfInput.nfInputResponsive {
+}
+.nfInput {
+    max-width: 500px;
+}
+div {
+    display: block;
+}
+
+
+.our-story-cta-container {
+    min-width: 400px;
+    max-width: 549px;
+}
+.cta-link-wrapper {
+    min-width: 400px;
+    max-width: 549px;
+}
+
+
+
+.nfSelectWrapper .inputError {
+    color: #b92d2b;
+    font-size: 13px
+}
+
+.nfSelectWrapper .inputCaption {
+    color: #8c8c8c;
+    font-size: 13px
+}
+
+.nfSelectWrapper.nfSelectOversize .nfSelect {
+    min-height: 60px;
+    padding-top: 24px
+}
+.ui-select-wrapper {
+    display: inline-block;
+    position: relative
+}
+
+.ui-select-wrapper>.ui-label {
+    margin-bottom: 0
+}
+
+.ui-select-wrapper .select-arrow {
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+
+
+
+
