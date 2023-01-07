@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto','sans-serif';
+    font-size: 20px;
+}
+body{
+    background-image: url("/css/img/fondo.jpg");
+    background-repeat: no-repeat;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+    
+}
+header{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+  
+}
+
+   
+
+  
+
+.header .nav-links {
+     list-style: none;
+     
+}
+.header .nav-links li{
+    display: inline-flex;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+.header .nav-links a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.header .nav1 img{
+    border-radius: 15px;
+   display: inline-flex;
+    height: 30px;
+    width: auto;
+
+    margin-left: 20px;
+  
+
+}
+html, body, a, div, main, span, table, tr, td, strong, ul, ol, li, h1, h2, h3, p, input {
+    font-weight: inherit;
+    font-size: inherit;
+    list-style: none;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: block;
+}
+.sbox * {
+    box-sizing: inherit;}
+
+.sbox {
+    display: inline-flex;
+        top: 20%;
+        height: 100%;
+        width: 100%;
+        width: 62.4%;
+        box-sizing: border-box;
+        min-height: 40px;
+        max-height: 52px;
+        min-width: 580px;
+        max-width: 696px;
+        white-space: nowrap;
+        position:absolute ;
+        z-index: 3;
+        margin: 0 0 0 228px;
+    }
+
+.sbox .sb_form .search, .sbox .sb_form #vkeyIcon {
+    cursor: pointer;
+}
+
+
+.sbox .sb_form .icon {
+
+    position: relative;
+    min-width: 28px;
+    margin:  4px;
+    height: 45%;
+    width: 5%;
+}
+.sbox .mic_cont .icon{
+    position: relative;
+    
+    min-width: 28px;
+    margin: auto 4px;
+    height: 45%;
+    width: 5%;
+}
+
+.tooltip, #sb_sbi, #id_sc, #id_rh, #id_rbh, #id_nc, #bnc-hc {
+    position: relative;
+    
+    
+}
+.label#search_icon {
+    position: relative;
+    
+}
+
+
+
+
+
+label {
+    cursor: pointer;
+}
+.sbox .sb_form {
+    width: 100%;
+    background-color: transparent;
+    font: normal 1rem "Segoe UI",Arial,Helvetica,Sans-Serif;
+    padding-right: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    align-items: center;
+    justify-content: flex-end;
+    display: inline-flex;
+    border-radius: 24px;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+
+
+
+
