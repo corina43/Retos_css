@@ -87,6 +87,71 @@ form {
     display: block;
     margin-top: 0em;
 }
+@media only screen and {(min-width: 1450px), only screen and (min-width: 950px) and
+     (max-width: 1449px)}
+.email-form {
+    max-width: 950px;
+    padding-top: 0.85rem;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+* {
+    letter-spacing: 0!important;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+.hero-card .our-story-card-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.our-story-card-subtitle, .our-story-card-text {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+}
+.basicLayout .disclosure-visible {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.netflix-sans-font-loaded {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.netflix-sans-font-loaded {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body, html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3f3f3;
+    color: #333;
+    direction: ltr;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 16px;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
 
 .email-form {
     display: flex;
@@ -107,12 +172,12 @@ form {
     width: auto;
 }
 
-btn {
-    font-size: 1em;
+.btn {
+    font-size: 1rem;
     margin: 0.5em 0.5em 0.5em 0;
     min-height: 50px;
     min-width: 74px;
-    padding: 24.5px 2em;
+    padding: 0;
     position: relative;
 }
 .btn-red {
@@ -126,13 +191,13 @@ btn {
 .btn {
     
     border: 0;
-    border-radius: 2px;
+    border-radius: 1px;
     
     box-sizing: border-box;
 
     cursor: pointer;
     
-    font-weight: 400;
+    font-weight: 500px;
 
     
     text-align: center;
@@ -156,29 +221,21 @@ btn {
     text-indent: 0px;
     text-shadow: none;
 }
-.button, input, optgroup, select, textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-email-form-lockup {
+
+.email-form-lockup .our-story-cta-container {
+    display: inline-block;
+    flex: 1 0 auto;
     text-align: center;
+   
 }
-.our-story-card {
-    background: transparent;
-    border-bottom: 8px solid #222;
-    color: #fff;
-    margin-bottom: 0;
-    padding: 50px 10%;
-    position: relative;
-}
+
 *,
 ::after
 .nmhp-cta-extra-large:after {
     min-height: 40px;
 }
 .nmhp-cta:after {
-    content: "";
+    
     display: inline-block;
     flex: 0 0 auto;
     width: 1px;
@@ -192,11 +249,7 @@ body, html {
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: 16px;
 }
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-family: sans-serif;
-}
+
 .faq-card {
     text-align: center;
 }
@@ -281,7 +334,7 @@ li {
 }
 .hero-card .our-story-card-text {
     margin: 0 auto;
-    max-width: 950px;
+    max-width: 9500px;
     padding: 75px 0;
     position: relative;
     text-align: center;
@@ -301,7 +354,7 @@ li {
     border-bottom: 8px solid #222;
     color: #fff;
     margin-bottom: 0;
-    padding: 50px 5%;
+    padding: 0;
     position: relative;
 }
 
@@ -316,16 +369,23 @@ li {
 .nfInput.nfInputResponsive {
 }
 .nfInput {
-    max-width: 500px;
+    max-width: 400px;
 }
-div {
-    display: block;
+ .our-story-cta-container .cta-link-wrapper{
+    justify-content: center;
+    margin: 2rem;
+    padding: 10%;
 }
+
 
 
 .our-story-cta-container {
     min-width: 400px;
     max-width: 549px;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    
 }
 .cta-link-wrapper {
     min-width: 400px;
@@ -334,15 +394,9 @@ div {
 
 
 
-.nfSelectWrapper .inputError {
-    color: #b92d2b;
-    font-size: 13px
-}
 
-.nfSelectWrapper .inputCaption {
-    color: #8c8c8c;
-    font-size: 13px
-}
+
+
 
 .nfSelectWrapper.nfSelectOversize .nfSelect {
     min-height: 60px;
@@ -351,16 +405,15 @@ div {
 .ui-select-wrapper {
     display: inline-block;
     position: relative
+
 }
 
-.ui-select-wrapper>.ui-label {
-    margin-bottom: 0
-}
 
 .ui-select-wrapper .select-arrow {
     display: inline-block;
     position: relative;
-    width: 100%
+    width: 100%;
+    height: 10%;
 }
 
 
